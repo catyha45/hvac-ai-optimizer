@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-08-27 17:56:43",
+  "unix_timestamp": 1756288603,
+  "control_params": {
+    "approach_temp": 7.76,
+    "cooling_water_temp": 26.17,
+    "cooling_water_diff": 3.12
+  },
+  "energy_status": {
+    "total_power": 169.73,
+    "tower_power": 3.0,
+    "chiller_power": 128.13,
+    "pump_power": 38.6,
+    "plr_ratio": 53.4
+  },
+  "system_params": {
+    "wet_bulb_temp": 18.41,
+    "cooling_water_flow": 200,
+    "cooling_water_temp": 80,
+    "chilled_water_temp": 7.0,
+    "cooling_load": 134.67,
+    "pump_frequency": 85,
+    "min_cooling_temp": 26,
+    "max_cooling_temp": 33
+  },
+  "status": "normal"
+}

@@ -1,0 +1,24 @@
+{
+    "system_params": {
+        "wet_bulb_temp": 18.41,
+        "cooling_water_flow": 200,
+        "cooling_water_temp": 80,
+        "chilled_water_temp": 7.0,
+        "cooling_load": 134.67,
+        "pump_frequency": 85,
+        "min_cooling_temp": 26,
+        "max_cooling_temp": 33
+    },
+    "description": {
+        "wet_bulb_temp": "濕球溫度 (°C)",
+        "cooling_water_flow": "冷卻水流量 (m³/h)",
+        "cooling_water_temp": "冷卻水出水溫度 (°C)",
+        "chilled_water_temp": "冰水出水溫度 (°C)",
+        "cooling_load": "冷凍噸數 (RT)",
+        "pump_frequency": "泵頻率 (hz)",
+        "min_cooling_temp": "冷卻水溫度下限 (°C)",
+        "max_cooling_temp": "冷卻水溫度上限 (°C)"
+    },
+    "last_updated": "2025-01-01 00:00:00",
+    "version": "1.0"
+}
