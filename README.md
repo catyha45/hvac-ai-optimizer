@@ -9,9 +9,15 @@
 - lightgbm >= 3.3.0
 
 ## 安裝說明
-```bash
-pip install -r requirements.txt
-```
+1. 安裝套件：
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **重要**：需要自行訓練模型
+   - 本專案不包含預訓練模型（基於資料保護考量）
+   - 請使用 `隨機森林範本(冰水機).py` 訓練模型
+   - 將訓練好的 .pkl 檔案放入 `models/` 資料夾
 
 ## 使用方法
 ```bash
@@ -22,11 +28,10 @@ python demo_PLC自動調整.py
 ```
 hvac-ai-optimizer/
 ├── demo_PLC自動調整.py         # 主程式
-├── 隨機森林範本(冰水機).py      # 模型訓練腳本
-├── models/                     # AI模型檔案
-│   ├── chiller.pkl
-│   ├── cooling_tower.pkl
-│   └── pump.pkl
+├── 隨機森林範本(冰水機).py      # 隨機森林模型訓練腳本
+├── 神經網路範本(冰水機).py      # 神經網路模型訓練腳本
+├── models/                     # AI模型檔案資料夾
+│   └── README.txt             # 模型說明檔案
 ├── system_config.json          # 系統參數配置
 ├── requirements.txt            # 套件相依
 └── README.md                  # 專案說明
